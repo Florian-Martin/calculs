@@ -15,9 +15,9 @@ namespace Calculs
             Random rand = new Random(); // outil de génération de nombre aléatoire
             int val1, val2; // mémorisation de nombres aléatoires
             int solution; // calcul de la solution
-            int reponse = 0; // saisie de la réponse de l'utilisateur
+            int reponse; // saisie de la réponse de l'utilisateur
             string choix; // saisie du choix de l'utilsiateur
-            bool typeReponseValide;
+            bool typeChoixValide;
 
             // boucle sur le menu
             choix = "1";
@@ -37,20 +37,8 @@ namespace Calculs
                         val1 = rand.Next(1, 10);
                         val2 = rand.Next(1, 10);
                         // saisie de la réponse
-                        typeReponseValide = false;
-                        while (!typeReponseValide)
-                        {
-                            try
-                            {
-                                Console.Write(val1 + " + " + val2 + " = ");
-                                reponse = int.Parse(Console.ReadLine());
-                                typeReponseValide = true;
-                            }
-                            catch
-                            {
-                                Console.WriteLine("Veuillez saisir un entier.");
-                            }
-                        }
+                        Console.Write(val1 + " + " + val2 + " = ");
+                        reponse = int.Parse(Console.ReadLine());
                         // comparaison avec la bonne réponse
                         solution = val1 + val2;
                         if (reponse == solution)
@@ -67,21 +55,8 @@ namespace Calculs
                         val1 = rand.Next(1, 10);
                         val2 = rand.Next(1, 10);
                         // saisie de la réponse
-                        typeReponseValide = false;
-
-                        while (!typeReponseValide)
-                        {
-                            try
-                            {
-                                Console.Write(val1 + " x " + val2 + " = ");
-                                reponse = int.Parse(Console.ReadLine());
-                                typeReponseValide = true;
-                            }
-                            catch
-                            {
-                                Console.WriteLine("Veuillez saisir un entier.");
-                            }
-                        }
+                        Console.Write(val1 + " x " + val2 + " = ");
+                        reponse = int.Parse(Console.ReadLine());
                         // comparaison avec la bonne réponse
                         solution = val1 * val2;
                         if (reponse == solution)

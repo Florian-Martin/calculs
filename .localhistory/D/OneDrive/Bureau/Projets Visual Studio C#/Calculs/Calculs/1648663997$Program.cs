@@ -17,7 +17,7 @@ namespace Calculs
             int solution; // calcul de la solution
             int reponse = 0; // saisie de la réponse de l'utilisateur
             string choix; // saisie du choix de l'utilsiateur
-            bool typeReponseValide;
+            bool typeChoixValide;
 
             // boucle sur le menu
             choix = "1";
@@ -37,14 +37,14 @@ namespace Calculs
                         val1 = rand.Next(1, 10);
                         val2 = rand.Next(1, 10);
                         // saisie de la réponse
-                        typeReponseValide = false;
-                        while (!typeReponseValide)
+                        typeChoixValide = false;
+                        while (!typeChoixValide)
                         {
                             try
                             {
                                 Console.Write(val1 + " + " + val2 + " = ");
                                 reponse = int.Parse(Console.ReadLine());
-                                typeReponseValide = true;
+                                typeChoixValide = true;
                             }
                             catch
                             {
@@ -67,15 +67,15 @@ namespace Calculs
                         val1 = rand.Next(1, 10);
                         val2 = rand.Next(1, 10);
                         // saisie de la réponse
-                        typeReponseValide = false;
+                        typeChoixValide = false;
 
-                        while (!typeReponseValide)
+                        while (!typeChoixValide)
                         {
                             try
                             {
                                 Console.Write(val1 + " x " + val2 + " = ");
                                 reponse = int.Parse(Console.ReadLine());
-                                typeReponseValide = true;
+                                typeChoixValide = true;
                             }
                             catch
                             {
