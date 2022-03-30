@@ -29,9 +29,10 @@ namespace Calculs
                 Console.Write("Choix :                          ");
                 choix = int.Parse(Console.ReadLine());
                 // traitement des choix
-                switch (choix)
+                if (choix != 0)
                 {
-                    case 1:
+                    if (choix == 1)
+                    {
                         // choix de l'addition
                         val1 = rand.Next(1, 10);
                         val2 = rand.Next(1, 10);
@@ -48,8 +49,9 @@ namespace Calculs
                         {
                             Console.WriteLine("Faux : " + val1 + " + " + val2 + " = " + solution);
                         }
-                        break;
-                    case 2:
+                    }
+                    else
+                    {
                         // choix de la multiplication
                         val1 = rand.Next(1, 10);
                         val2 = rand.Next(1, 10);
@@ -66,10 +68,7 @@ namespace Calculs
                         {
                             Console.WriteLine("Faux : " + val1 + " x " + val2 + " = " + solution);
                         }
-                        break;
-
-                    default:
-                        break;
+                    }
                 }
             }
         }
