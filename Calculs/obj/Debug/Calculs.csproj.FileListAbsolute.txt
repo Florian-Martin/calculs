@@ -1,0 +1,14 @@
+G:\test\testVisualStudio2019\Calculs\Calculs\bin\Debug\Calculs.exe.config
+G:\test\testVisualStudio2019\Calculs\Calculs\bin\Debug\Calculs.exe
+G:\test\testVisualStudio2019\Calculs\Calculs\bin\Debug\Calculs.pdb
+G:\test\testVisualStudio2019\Calculs\Calculs\obj\Debug\Calculs.csprojAssemblyReference.cache
+G:\test\testVisualStudio2019\Calculs\Calculs\obj\Debug\Calculs.csproj.CoreCompileInputs.cache
+G:\test\testVisualStudio2019\Calculs\Calculs\obj\Debug\Calculs.exe
+G:\test\testVisualStudio2019\Calculs\Calculs\obj\Debug\Calculs.pdb
+D:\OneDrive\Bureau\B1.2-20220330T132429Z-001\B1.2\réalisation 1\ressources\Calculs\Calculs\Calculs\bin\Debug\Calculs.exe.config
+D:\OneDrive\Bureau\B1.2-20220330T132429Z-001\B1.2\réalisation 1\ressources\Calculs\Calculs\Calculs\bin\Debug\Calculs.exe
+D:\OneDrive\Bureau\B1.2-20220330T132429Z-001\B1.2\réalisation 1\ressources\Calculs\Calculs\Calculs\bin\Debug\Calculs.pdb
+D:\OneDrive\Bureau\B1.2-20220330T132429Z-001\B1.2\réalisation 1\ressources\Calculs\Calculs\Calculs\obj\Debug\Calculs.csprojAssemblyReference.cache
+D:\OneDrive\Bureau\B1.2-20220330T132429Z-001\B1.2\réalisation 1\ressources\Calculs\Calculs\Calculs\obj\Debug\Calculs.csproj.CoreCompileInputs.cache
+D:\OneDrive\Bureau\B1.2-20220330T132429Z-001\B1.2\réalisation 1\ressources\Calculs\Calculs\Calculs\obj\Debug\Calculs.exe
+D:\OneDrive\Bureau\B1.2-20220330T132429Z-001\B1.2\réalisation 1\ressources\Calculs\Calculs\Calculs\obj\Debug\Calculs.pdb
