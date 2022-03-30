@@ -70,7 +70,6 @@ namespace Calculs
                         break;
 
                     default:
-                        Console.WriteLine("Erreur de saisie, veuillez réessayer.");
                         break;
                 }
             }

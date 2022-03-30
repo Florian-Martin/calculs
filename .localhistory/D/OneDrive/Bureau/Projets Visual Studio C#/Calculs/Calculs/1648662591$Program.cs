@@ -20,7 +20,7 @@ namespace Calculs
             bool typeChoixValide;
 
             // boucle sur le menu
-            choix = "1";
+            choix = 1;
             while (choix != "0")
             {
                 // affiche le menu et saisi le choix
@@ -70,7 +70,6 @@ namespace Calculs
                         break;
 
                     default:
-                        Console.WriteLine("Erreur de saisie, veuillez réessayer.");
                         break;
                 }
             }
